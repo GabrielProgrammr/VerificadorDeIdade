@@ -1,0 +1,35 @@
+body {
+    font: normal 15pt Arial;
+    background-color: rgb(20, 102, 183);
+}
+header {
+    color: white;
+    text-align: center;
+    font-size: 40pt;
+}
+section {
+    background-color:rgb(253, 253, 255);
+    width:600px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
+
+    }
+footer {
+        text-align: center;
+        color: rgba(202, 199, 199, 0.711);
+        font-style: italic;
+    }
+input {
+    width: 30%;
+    height: 20px;
+}
+#verificador {
+   display: flex;
+   text-align: center;
+   
+}
+#foto {
+   margin: auto;
+}

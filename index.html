@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="relogio.png" type="image/x-icon">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <header><strong>Verificador de Idade</strong></header><br>
+    <section>
+        <div>
+           <form type="number">
+               Ano de Nascimento
+               <input type="number" name="firstname" id="formu">
+           </form>
+        </div>
+        <div>
+            <p>
+                Sexo:
+                <input type="radio" name="genero" value="masculino" checked id="sexo">Male
+                <input type="radio" name="genero" value="feminino">Feminino<br>
+                <button onclick="verificar()">Verificar</button>
+            </p>
+        </div>
+        <!-- Mostra a idade -->
+        <div id="verificador">
+            Preenche os dados acima para ver o resultado
+        </div>
+        <div id="foto">         
+                <img id="img" src="" alt="Foto">
+        </div>
+    </section>
+    <footer>  
+        <p><strong>© Gabriel Ferreira</strong></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
